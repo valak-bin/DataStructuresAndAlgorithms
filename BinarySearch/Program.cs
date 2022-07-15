@@ -4,7 +4,6 @@ int[] myArr = new int[] { 1, 3, 5, 7, 9 };
 Console.WriteLine(BinarySearch(myArr, 9));
 Console.WriteLine(BinarySearch(myArr, -1));
 
-
 int BinarySearch(int[] list, int item)
 {
     int low = 0;
@@ -28,7 +27,6 @@ int BinarySearch(int[] list, int item)
             low = mid + 1;
         }
     }
-
 
     return -1;
 }
