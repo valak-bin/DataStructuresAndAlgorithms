@@ -15,10 +15,15 @@ int[] expectedArr = new int[] { 2, 3, 5, 10 };
 
 int[] sortedArr = QuickSort(myArr, 0, myArr.Length - 1);
 
-// Need to create helper method to compare two array for equality.
-// Console.WriteLine($"Sorted: {sortedArr == expectedArr}");
-Console.WriteLine();
-Array.ForEach(sortedArr, Console.WriteLine);
+// This could be a unit test. Or a string helper method.
+if (ArrayHelpers.CheckArrayEquality(sortedArr, expectedArr))
+{
+    Console.WriteLine("Array has been successfully sorted.");
+}
+else
+{
+    Console.WriteLine("Array failed to sort.");
+}
 
 // Methods
 
