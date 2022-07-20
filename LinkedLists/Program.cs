@@ -27,7 +27,7 @@ LinkedListNode<string> current = sentence.Find("data");
 sentence.AddBefore(current, "quick");
 
 // Add 'clue' after 'data'
-sentence.AddBefore(current, "clue");
+sentence.AddAfter(current, "clue");
 
 // Remove the node referred to by current
 sentence.Remove(current);
