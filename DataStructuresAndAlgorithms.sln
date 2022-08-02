@@ -47,11 +47,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{A2F2C9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateSubsequence", "ValidateSubsequence\ValidateSubsequence.csproj", "{5D8A923F-D7AE-425B-8142-BC873098B6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedSquaredArray", "SortedSquaredArray\SortedSquaredArray.csproj", "{DBBC0D6D-124A-4760-A8EC-F92BB0022EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedSquaredArray", "SortedSquaredArray\SortedSquaredArray.csproj", "{DBBC0D6D-124A-4760-A8EC-F92BB0022EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentWinner", "TournamentWinner\TournamentWinner.csproj", "{DA811CC5-C5FA-4D8D-8D3A-7A8D059583DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TournamentWinner", "TournamentWinner\TournamentWinner.csproj", "{DA811CC5-C5FA-4D8D-8D3A-7A8D059583DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConstructibleChange", "NonConstructibleCharge\NonConstructibleChange.csproj", "{297D0DC0-E039-48E2-A246-DB5CECA97221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonConstructibleChange", "NonConstructibleCharge\NonConstructibleChange.csproj", "{297D0DC0-E039-48E2-A246-DB5CECA97221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeNumberSum", "ThreeNumberSum\ThreeNumberSum.csproj", "{CDC1568E-E24E-4AB7-9178-2FC0C51A9CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestDifference", "SmallestDifference\SmallestDifference.csproj", "{25C745A1-B858-4A08-98CC-5B0667A34410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +147,14 @@ Global
 		{297D0DC0-E039-48E2-A246-DB5CECA97221}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{297D0DC0-E039-48E2-A246-DB5CECA97221}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{297D0DC0-E039-48E2-A246-DB5CECA97221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC1568E-E24E-4AB7-9178-2FC0C51A9CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC1568E-E24E-4AB7-9178-2FC0C51A9CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC1568E-E24E-4AB7-9178-2FC0C51A9CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC1568E-E24E-4AB7-9178-2FC0C51A9CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C745A1-B858-4A08-98CC-5B0667A34410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C745A1-B858-4A08-98CC-5B0667A34410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C745A1-B858-4A08-98CC-5B0667A34410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C745A1-B858-4A08-98CC-5B0667A34410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +181,8 @@ Global
 		{DBBC0D6D-124A-4760-A8EC-F92BB0022EFE} = {A2F2C9FB-B2F4-4B5C-A0F5-F8E71102D31D}
 		{DA811CC5-C5FA-4D8D-8D3A-7A8D059583DD} = {A2F2C9FB-B2F4-4B5C-A0F5-F8E71102D31D}
 		{297D0DC0-E039-48E2-A246-DB5CECA97221} = {A2F2C9FB-B2F4-4B5C-A0F5-F8E71102D31D}
+		{CDC1568E-E24E-4AB7-9178-2FC0C51A9CA4} = {A2F2C9FB-B2F4-4B5C-A0F5-F8E71102D31D}
+		{25C745A1-B858-4A08-98CC-5B0667A34410} = {A2F2C9FB-B2F4-4B5C-A0F5-F8E71102D31D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A650330-4FD3-44AA-A400-3F4EB21903E4}
